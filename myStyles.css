@@ -1,19 +1,35 @@
 body {
-	margin: auto;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 25px;
+	margin-left: 25px;
+	margin-right: 25px;
 	text-align: center;
 	background-image: url("lcehtV0.jpg");
 }
-ul {
-	margin: 0 1.5em 0 1.5em;
+#sideBar{
 	list-style-position: outside;
 	font-size: 50px;
+	font-family: 'Metal Mania', cursive;
+	width: 29%;
+	background-color: orange;
+	border: 10x solid red;
+	color: white;
+	border: 5px solid red;
 }
-div {
-	margin: auto;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+#new {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    float: left;
+    width: 33%;
+    padding: 16px;
+    font-size: 16px;
+    border: black;
+    cursor: pointer;
+ 
 
+
+}
+
+#lol {
+	float: right;
 }
